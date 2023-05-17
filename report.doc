@@ -1,0 +1,50 @@
+Project Report: Appointment Booking System with Chatbot and Video Consultation
+
+Introduction:
+This project aims to develop a comprehensive web-based application that enables users to book appointments with doctors, interact with a chatbot for assistance, and join video consultations with doctors using a Google Meet link. The project utilizes a combination of HTML, CSS, JavaScript, Flask framework, and SQLite database to create a seamless user experience.
+
+
+Features:
+
+1. Appointment Booking: Users can select a doctor, choose a preferred date and time slot, and book an appointment.
+2. Chatbot Interaction: Users can engage in conversations with a chatbot to get answers to general queries or seek assistance regarding the appointment booking process.
+3. Video Consultation: Users can join a scheduled appointment with a doctor through a Google Meet link provided within the application.
+4. User Authentication: Users can create accounts, log in, and manage their appointments.
+5. Doctor Management: Doctors can register and manage their availability, view scheduled appointments, and conduct video consultations.
+
+
+Technologies Used:
+
+1. HTML: Used for creating the structure and content of the web pages.
+2. CSS: Utilized for styling the web pages and providing an aesthetically pleasing user interface.
+3. JavaScript: Implemented to handle client-side interactions, form validation, and asynchronous communication with the server.
+4. Flask Framework: Employed to build the backend server and handle HTTP requests and responses.
+5. SQLite Database: Used to store user and appointment data, facilitating efficient retrieval and management.
+6. Google Meet API: Integrated to generate and provide Google Meet links for video consultations.
+
+System Architecture:
+The system follows a client-server architecture, where the client-side comprises the web browser and the server-side includes the Flask application and SQLite database. The client-side interacts with the server-side through HTTP requests and receives responses containing the necessary data.
+
+Database Schema:
+* The SQLite database consists of the following tables:
+
+1. Users: Stores user information, including username, password (encrypted), email, and contact details.
+2. Doctors: Contains details of registered doctors, such as name, specialization, availability, and Google Meet link.
+3. Appointments: Stores appointment information, including user ID, doctor ID, appointment date and time, and appointment status.
+
+
+Implementation:
+
+> Frontend Development: HTML, CSS, and JavaScript are used to create the user interface for appointment booking, chatbot interaction, and video consultation joining.
+
+> Backend Development: The Flask framework is used to handle HTTP requests and responses, implement the business logic, and interact with the SQLite database.
+
+> Database Management: SQLite database is utilized to store and retrieve user, doctor, and appointment data.
+
+> Integration: The Google Meet API is integrated to generate and provide the Google Meet links for video consultations.
+
+> Testing and Debugging: The application is thoroughly tested to ensure proper functionality, data integrity, and user experience.
+
+Conclusion: 
+
+The developed web application successfully provides a user-friendly interface for booking appointments with doctors, interacting with a chatbot for assistance, and joining video consultations using a Google Meet link. The combination of HTML, CSS, JavaScript, Flask framework, and SQLite database enables a seamless user experience and efficient management of user and appointment data. Future enhancements could include additional features like prescription management, patient history tracking, and integration with electronic health records (EHR) systems.
