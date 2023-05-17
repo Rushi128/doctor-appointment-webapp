@@ -1,6 +1,4 @@
 
-
-```
 # Doctor Appointment Booking Web Application
 
 This is a web application that allows users to book appointments with doctors, chat with chatbots, and send requests to contact doctors. Users can also view details of doctors available on the site. The technologies used for this project are HTML, CSS, JavaScript, and the Flask framework for the backend. The database used is SQLite.
