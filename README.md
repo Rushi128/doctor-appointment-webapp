@@ -17,7 +17,7 @@ This is a web application that allows users to book appointments with doctors, c
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/doctor-appointment-webapp.git
+   git clone https://github.com/Rushi128/doctor-appointment-webapp.git
    ```
 
 2. Navigate to the project directory:
