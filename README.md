@@ -5,8 +5,8 @@ This is a web application that allows users to book appointments with doctors, c
 
 ## Features
 
-- User Registration: Users can create an account to access the features of the application.
-- Doctor Search: Users can search for doctors based on various criteria such as specialization, location, etc.
+<!-- - User Registration: Users can create an account to access the features of the application.
+- Doctor Search: Users can search for doctors based on various criteria such as specialization, location, etc. -->
 - Appointment Booking: Users can book appointments with their preferred doctors based on availability.
 - Chatbot Integration: Chatbots are available to provide assistance and answer common queries.
 - Contact Request: Users can send requests to contact doctors for further information or assistance.
